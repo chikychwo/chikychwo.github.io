@@ -1,0 +1,92 @@
+body {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	background: url(../images/fondo.jpg);
+}
+
+.acerca {
+	margin: auto;
+	display: inline-block;
+	width: 100%;
+}
+.acerca img{
+	float: left;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+nav {
+	display: inline-block;
+	margin-top: 20px;
+}
+nav ul {
+	margin: 0px 100px 0px 500px;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	width: 100px;
+	margin: 0px;
+	height: 100px;
+	background-color: #D7DF01;
+}
+nav a {
+	display: block;
+	background-color: #D7DF01;
+	height: 100px;
+	color: black;
+	font: impact;
+	font-size: 16px;
+	font-weight: bolder;
+	text-align: center;	
+	text-decoration: none;
+
+}
+
+nav ul li a i {
+	padding: 50px;
+}
+
+#destacado {
+	background: url(../images/destacado.jpg);
+	height: 300px;
+	font-size: 34px;
+	text-align: left;
+	color: white;
+
+}
+
+#dentro-destacado-1 {
+	background: url(../images/dentro-destacado-1.jpg);
+	font-size: 24px;
+	height: 80px;
+	width: 550px;
+	text-align: center;
+	margin-top: -280px;
+	float: right;
+	margin-right: 40px;
+	color: white;
+}
+
+#dentro-destacado-2 {
+	background: url(../images/dentro-destacado-2.jpg);
+	color: white;
+	margin-right: 40px;
+	font-size: 28px;
+	height: 160px;
+	width: 550px;
+	text-align: center;
+	margin-top: -180px;
+	float: right;
+
+}
+
+#video {
+	margin-top: 20px;
+	background-color: #FFBF00;
+}
+
+
